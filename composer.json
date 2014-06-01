@@ -1,0 +1,11 @@
+{
+    "name": "koala-framework/library-tidy",
+    "description": "Metapackage rerquiring tidy extension",
+    "type": "metapackage",
+    "require": {
+        "ext-tidy": "*"
+    },
+    "replace": {
+        "koala-framework/library-htmlawed": "*"
+    }
+}
